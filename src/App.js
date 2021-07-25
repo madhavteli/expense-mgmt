@@ -1,9 +1,13 @@
-function App() {
-  return (
-    <div className="App">
+import React from 'react';
+import Card from "./Components/Card";
 
-    </div>
-  );
+function App() {
+	return (
+		<div>
+			<h1>Let's get Started!</h1>
+			<Card />
+		</div>
+	);
 }
 
 export default App;
